@@ -1,0 +1,714 @@
+
+<html>
+<head>
+<title> Capitulo 4: Abril </title>
+<link rel="Shortcut icon" type="Image/x-icon" href="Icono.png">
+<style>
+ body{
+ background-image:url("ChocolateCayendo.png");
+ background-repeat: repeat-x;
+ background-color: #CB9696;
+}
+*{
+  padding:0px;
+  margin:0px;
+}
+
+#indice{
+        margin:25px;
+		width= 2150px;
+		position: fixed;
+		left: -25px;
+		top:-30px;
+	    height:300px;
+		
+}
+
+ul{ 
+   list-style: none;
+   position: fixed;
+   }
+
+.menu li a{
+background-color:black;
+color:white;
+text-decoration:none;
+padding: 10px 15px;
+display:block;
+width:305px;
+font-family:Tempus Sans ITC, arial;
+font-size: 30px;
+}
+.menu a:link{
+    color:white;
+	height: 50px;
+	}
+a:active{
+    color:#7401DF;
+	}	
+
+.menu > li{
+float: left;
+}
+
+.menu li a:hover{
+background-color:gray;
+
+}
+
+.menu li ul{
+
+display:none;
+position: fixed;
+min-width: 10px;
+}
+
+.menu li:hover > ul{
+
+display:block;
+
+}
+ ol{
+ position: static;
+ top: 185px;
+ 
+ 
+ }
+
+ol li{
+border-radius:50px;
+background-color:#FA5882;
+position: static;
+margin-top:5px;
+width:300px;
+font-size:40px;
+height: 75px;
+padding-left:20px;
+-webkit-transition:padding-left 0.6s;
+font-family:Yu Gothic, arial;
+}
+
+ol li:hover{
+padding-left:50px;
+background-color:#DF013A;
+}
+
+ol li a{ 
+text-decoration: none;
+}
+
+ol li a:link{ 
+color: #071418;
+}
+
+ol li a:hover{ 
+color:#F8E0E6;
+}
+
+ol li a:visited{ 
+color:#08088A;
+}
+
+h2{
+background:-webkit-linear-gradient(#ECF8E0,#0489B1);
+margin-top:-320px;
+width:300px;
+height:75px;
+font-family:Yu Gothic , arial;
+font-size: 50px;
+border: 5px inset blue;
+animation-name: colorchange;
+animation-duration: 5s;
+animation-timing-fuction:ease;
+animation-delay:1s;
+animation-iteration-count:infinite;
+animation-direction:normal;
+-webkti-animation-name: colorchange;
+-webkit-animation-duration: 5s;
+-webkit-animation-timing-fuction:ease;
+-webkit-animation-delay:1s;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-direction:normal;
+clear: both;
+}
+ @keyframes colorchange{
+
+                      0%{background:-webkit-linear-gradient(#ECF8E0,#0489B1);}
+					  20%{background:-webkit-linear-gradient(#F8E0EC,#BF00FF);}
+					  40%{background:-webkit-linear-gradient(#F2F2F2,#DF3A01);}
+					  60%{background:-webkit-linear-gradient(#F7F8E0,#B40404);}
+					  80%{background:-webkit-linear-gradient(#E0F8F7,#B40431);}
+					 100%{background:-webkit-linear-gradient(#ECE0F8,#FF4000 );}
+	 }
+	
+	@-webkit-keyframes colorchange{
+	                   0%{background:-webkit-linear-gradient(#ECF8E0,#0489B1);}
+					  20%{background:-webkit-linear-gradient(#F8E0EC,#BF00FF);}
+					  40%{background:-webkit-linear-gradient(#F2F2F2,#DF3A01);}
+					  60%{background:-webkit-linear-gradient(#F7F8E0,#B40404);}
+					  80%{background:-webkit-linear-gradient(#E0F8F7,#B40431);}
+					 100%{background:-webkit-linear-gradient(#ECE0F8,#FF4000 );}
+                      
+	 }
+	
+h1{
+float:top;
+position:static;
+margin-top:300px;
+margin-left: 250px;
+left: 370px;
+font-family:courier;
+text-shadow: 5px 2px 4px #F6CED8;
+} 
+
+.gif{
+position: static;
+margin-right:10px;
+height: 275px;
+margin-top: -359px;
+width: 300px;
+margin-left:1040px;
+}
+
+ .ingredientes{
+ position: static;
+ margin-top: -3160px; 
+ left: -1px;
+ overflow: scroll;
+ background:-webkit-linear-gradient(#E9FBFB,#015F62);
+ width: 320px; 
+ height: 400px;
+ font-family: yu gothic;
+ font-size:18px;
+ }
+ 
+ h3{
+ position: static;
+ margin-top: 10px;
+ left: -1px;
+ border-radius: 50px;
+ border: 5px solid #F8AA05;
+ background-color:#EED08C;
+ width: 320px; 
+ height: 60px;
+ font-family: vladimir script;
+ font-size: 50px;
+ }
+ 
+ h4{
+ position: static;
+ margin-top: -20px;
+ margin-left:690px;
+ width: 300px;
+ height: 50px;
+ font-family: Tw Cen MT;
+ font-size: 50px;
+ background-image:url("Titulo3.jpg");
+ border-radius: 50px;
+
+ }
+ 
+ h4:hover{
+ height: 75px;
+ 
+ }
+  
+  .barra{
+ position: static;
+ margin-top: -70px;
+ margin-left:450px;
+ width: 300px;
+ height: 200px;
+ 
+ }
+
+ .barra2{
+ position: static;
+ margin-top: -200px;
+ margin-left:970px;
+ width: 300px;
+ height: 200px;
+ 
+ }
+
+.resumen{
+position: static;
+ margin-top: -690px;
+ margin-left: 330px;
+ background-color:#DFBDD4;
+ width: 1000px; 
+ height: 1070px;
+ font-family: yu gothic;
+ font-size:18px;
+ text-align: justify;
+ padding-left: 10px;
+ }
+ 
+ .resumen:hover{
+ background-color:#CBE3F6;
+
+ }
+ 
+ 
+ .cita{
+ text-align: justify;
+ background: #F45B5D;
+}
+ 
+
+ .indice1{
+ position: static;
+ margin-top: 10px;
+ margin-left:690px;
+ width: 300px;
+ height: 50px;
+ font-family: Tw Cen MT;
+ font-size: 50px;
+ background:-webkit-linear-gradient(#F8D3EF,#D7025E);
+ border-radius: 50px;
+ text-align: center;
+}
+ 
+ .indice1 a{
+  color:#0B0005; 
+  }
+ 
+ .indice1 a:link{
+  text-decoration:none;
+}
+  
+  .indice1 a:hover{
+  color: #F6E8EB;
+}
+  
+ .indice1 a:visited{
+  color:#015DFB;
+} 
+  
+ .enlace{
+position: static;
+margin-top: 200px;
+ margin-left:-1px;
+ }  
+ 
+.descripcion{
+background-color:#FB6340;
+border: 5px dashed #380B01;
+width: 309px;
+height: 70px;
+font-family:Arial Narrow;
+text-align: justify;
+font-size: 21px;
+}
+
+ .enlaza{
+ color:black;
+ }
+  
+h5{
+position: static;
+margin-top: 30px;
+margin-left:600px;
+width: 300px;
+ height: 50px;
+ font-family: Tw Cen MT;
+ font-size: 50px;
+ background-image:url("Titulo3.jpg");
+ border-radius: 50px;
+}
+ 
+h5:hover{
+ height: 75px;
+ 
+}
+
+.indice2{
+ position: static;
+ margin-top: 10px;
+ margin-left:600px;
+ width: 300px;
+ height: 50px;
+ font-family: Tw Cen MT;
+ font-size: 50px;
+ background:-webkit-linear-gradient(#FBF8E9,#CAA501);
+ border-radius: 50px;
+ text-align: center;
+}
+ 
+ .indice2 a{
+  color:#0B0005; 
+  }
+ 
+ .indice2 a:link{
+  text-decoration:none;
+}
+  
+  .indice2 a:hover{
+  color: #F6E8EB;
+}
+  
+ .indice2 a:visited{
+  color:#015DFB;
+} 
+
+.barra3{
+ position: static;
+ margin-top: -140px;
+ margin-left:300px;
+ width: 300px;
+ height: 200px;
+ 
+ }
+
+ .barra4{
+ position: static;
+ margin-top: -205px;
+ margin-left:900px;
+ width: 300px;
+ height: 200px;
+ 
+ }
+
+.ambiente{
+position: static;
+ margin-top: -10px;
+ margin-left: -1px;
+ background-color:#92B3BE;
+ width: 1000px; 
+ height: 500px;
+ font-family: yu gothic;
+ font-size:18px;
+ text-align: justify;
+ padding-left: 10px;
+ }
+ 
+ .ambiente:hover{
+ background-color:#E9F1AB;
+
+ }
+ 
+ .cita2{
+ text-align: justify;
+ background:#EC9E01;
+}
+
+ video{
+ position: static;
+ margin-top: -970px;
+ margin-left: -1px;
+ }
+ 
+ .descripcion2{
+ position: static;
+ margin-top: -1050px;
+ margin-left: -1px;
+ background-color: pink;
+ width: 320px;
+ font-size:18px;
+ }
+
+ .gif2{
+ position: static;
+ margin-top: -130px;
+ margin-left: 100px;
+ }
+ 
+ .Imagen6{
+position: static;
+ margin-top: 600px;
+ margin-left: 1015px;
+ box-shadow: 5px 10px black;
+} 
+ 
+ .Imagen7{
+position: static;
+ margin-top: 10px;
+ margin-left: 1018px;
+ box-shadow: 5px 10px black;
+} 
+ 
+ .descripcion3{
+  position: static;
+ margin-top: -590px;
+ margin-left: 1015px;
+ box-shadow: 5px 10px black;
+ background:#F5A9A9;
+ width: 320px;
+ height: 100px;
+ font-size: 30px;
+ text-shadow: 5px 5px  10px #8A0829;
+} 
+
+  h6{
+   position: static;
+   margin-top: 420px;
+   margin-left: 400px;
+   width: 300px;
+   height: 50px;
+   font-family: Tw Cen MT;
+   font-size: 50px;
+   background-image:url("Titulo3.jpg");
+   border-radius: 50px;
+}
+ 
+h6:hover{
+ height: 75px;
+ 
+}
+   
+  .indice3{
+ position: static;
+ margin-top: 10px;
+ margin-left: 400px;
+ width: 300px;
+ height: 50px;
+ font-family: Tw Cen MT;
+ font-size: 50px;
+ background:-webkit-linear-gradient(#FAD7C9,#FD6B31);
+ border-radius: 50px;
+ text-align: center;
+}
+ 
+ .indice3 a{
+  color:#0B0005; 
+  }
+ 
+ .indice3 a:link{
+  text-decoration:none;
+}
+  
+  .indice3 a:hover{
+  color: #F6E8EB;
+}
+  
+ .indice3 a:visited{
+  color:#015DFB;
+}  
+ 
+  .barra5{
+ position: static;
+ margin-top: -130px;
+ margin-left: 100px;
+ width: 300px;
+ height: 200px;
+} 
+   
+ .barra6{
+ position: static;
+ margin-top: -130px;
+ margin-left: 300px;
+ width: 300px;
+ height: 200px;
+ }    
+   
+ .valor {
+ position: static;
+ margin-top: 10px;
+ margin-left: 1px;
+ background-color:#99BFA7;
+ width:1100px;
+ height: 500px;
+ font-family: yu gothic;
+ font-size:18px;
+ text-align: justify;
+ padding-left: 10px;
+ }
+ 
+ .valor:hover{
+ background-color:#FD6AA2;
+
+ }
+ 
+ .cita3{
+ text-align: justify;
+ background:#CB68FA;
+}
+ 
+ video{
+ position: static;
+ margin-top: -970px;
+ margin-left: -1px;
+ }
+ 
+ .enlace2{
+ position: static;
+ margin-top: -520px;
+ margin-left: 1100px;
+ 
+ }
+  
+  .descripcion4{
+ width: 250px;
+ height: 100px;
+ box-shadow: 5px 10px black;
+ background:#F5ECD2;
+ font-size: 20px;
+ text-shadow: 5px 5px  10px #F703FF;
+ margin-top: -20px;
+ }
+ 
+ 
+ .Imagenes{
+ position: static;
+ margin-top: -7px;
+ margin-left: 300px;
+ 
+ }
+  
+  .descripcion5{
+  margin-left: 550px;
+  margin-top: 10px;
+  color: white;
+  width: 300px;
+  font-family:Times New Roman;
+  font-size:45px;
+  text-shadow: 5px 5px  10px #E46591;
+  }
+  
+  .Imagen8{
+  border:5px solid #C70046
+  } 
+  
+  .Imagen9{
+  border:5px solid #C70046
+  } 
+  
+  .Imagen10{
+  border:5px solid #C70046
+  } 
+  
+  .Imagen11{
+  border:5px solid #C70046
+  } 
+  
+ 
+</style>
+</head>
+<body>
+<div id="indice">
+<ul class="menu">
+<li align="center"><a href="Como Agua Para Chocolate.htm" target= "_black">Inicio</a></li>
+
+<li align="center"><a href="">Capítulos</a>
+<ul>
+<li align="center"><a href="Abril.html" target= "_black">Capítulo 4</a></li>
+<li align="center"><a href="Mayo.html" target= "_black">Capítulo 5</a></li>
+<li align="center"><a href="Junio.html" target= "_black">Capítulo 6</a></li>
+</ul>
+</li>
+<li align="Center"><a href="Personajes.html" target="_black">Personajes</a></li>
+<li align="center"><a href="Video.html" target= "_black">Vídeo</a></li>
+</ul>
+</div>
+<h1 align="center"><font face="Candle Mustard" color="Mahogany" size="11">Capitulo 4. Abril:</a><br>  Mole de guajolote con almendra y ajonjolí.  </font></h1> 
+<h2 align="center"><a name="Indice"> Índice:</a></h2>
+<ol>
+<li align="center"><a href="#Resumen"> Resumen </a></li> 
+<li align="center"><a href="#Ambiente"> Ambiente </a></li>
+<li align="center"><a href="#Valor"> Valor</a></li>
+</ol>
+<img class="gif" src="Imagen.gif"></img>
+<h3 align="center">Ingredientes:</h3>
+<h4 align="center" style="cursor:pointer"><a name="Resumen"> Resumen. </a></h4>
+<p class="indice1"><a href="#Indice">Índice.</a></p>
+<img class="barra" src="Barra.png"/>
+<img class="barra2" src="Barra.png"/>
+<table class="enlace">
+<tr>
+<td><img src="Imagen5.jpg" width="320px" height="400px"/><br><br><p class="descripcion" align="center">Para más información sobre la obra "Como Agua Para Chocolate" clic <a class="enlaza" href="https://es.wikipedia.org/wiki/Como_agua_para_chocolate_(novela)">Aquí</a></p></td>
+</tr>
+</table>
+<p class="Resumen">“Después de dos días de matado el guajolote, se limpia y se pone a cocer con sal. La carne de los guajolotes es sabrosa y aun exquisita si se ha cebado cuidadosamente. Esto se logra teniendo a las aves en corrales limpios, con grano y agua en abundancia.” Así empieza el capítulo 4. Tita preparaba esta receta para una gran celebración que habría en el rancho: el bautizo de Roberto, primer hijo de Rosaura y Pedro. A pesar de que Roberto es producto del matrimonio de Rosaura y Pedro, Tita sentía un inmenso cariño por su sobrino. Lo podemos leer en el siguiente fragmento:<br><br><b><em class="cita"><q> En especial de parte de Tita, quien en contra de lo que se esperaba, sentía un inmenso cariño por este niño, olvidando por completo que era el resultado del matrimonio de su hermana con Pedro, el amor de su vida.</q></em></b><br><br>En este capítulo se puedo identificar el deseo que tanto Tita y Pedro se tenían. Primero Pedro logra sentir una sensación que despertó su instinto sensual, al escuchar las ollas chocar uno con otras, la voz de Tita cantando mientras cocinaba el mole, y  el olor de las almendras dorándose.  Entonces Pedro al no resistir estos olores decide ir a la cocina donde Tita estaba inclinada sobre un metate moliendo las almendra y el ajonjolí; bajo su blusa estaban sus senos duros y redondos, ya que ella no solía usar sartén. Pedro al entrar a la cocina quedó petrificado al encontrar a Tita en dicha postura sensual, al subir Tita su mirada y encontrarse con la de Pedro, hubo entre ellos un deseo, que cambiaría su relación, pues desde ese día ya no sería la misma, y más aún cuando Pedro enfoco su mirada en los pechos de Tita.<br><br>Luego en el capítulo nos enteramos de que Gertrudis trabaja en un burdel cerca de la frontera. Tita se preocupa por su hermana y por eso le manda una maleta con ropa, un sobre, una vela de su comunión y una foto de las tres hermanas en su comunión. Lo hace sin el conocimiento de Mamá Elena porque ella prohibió mencionar el nombre de Gertrudis.<br><br> En el día del nacimiento de Roberto, en casa no había nadie excepto Tita y Rosaura. Mamá Elena y Chencha fueron al mercado para comprar comida y por las luchas en el pueblo no podían regresar a tiempo. Pedro fue a buscar al doctor John Brown para que ayudara a Rosaura en el parto. Fue capturado por los federales y sólo regresará al día siguiente. Tita no sabe qué hacer para ayudar a Rosaura y por eso invoca a Nacha. Ésta le dice lo que tiene que hacer. Cuando Chencha y Mamá Elena regresan Rosaura duerme y el niño está perfectamente envuelto en una manta. Cuando Pedro llega con el doctor John Brown, éste examina a Rosaura. En el parto casi murió y fue muy débil, por eso tiene que quedarse en cama. El problema es que no tiene leche y así no puede alimentar a su hijo. Come Champurrado, lo que debería ayudar, pero la leche no le viene. Tita se ocupa de la alimentación del bebé. Intenta darle té y leche de vaca, pero Roberto no lo quiere. Al final le da su pecho porque no puede oír más su llanto y hay un milagro: Tita tiene leche para alimentar a Roberto. Pedro la ve en ese momento y está muy orgulloso. Parece como si Tita fuera la verdadera madre y no Rosaura. Pedro ayuda a Tita: siempre está de guardia cuando Tita alimenta a Roberto para que nadie se acerque. Es un secreto entre los dos. En el bautizo de Roberto Rosaura no puede participar y por eso Tita lleva a Roberto todo el tiempo. Tita está muy contenta porque Pedro y Roberto están cerca de ella. No necesita nada más. Pero Mamá Elena no quiere tolerar que Tita sea feliz y por eso cuenta en voz alta al cura que va a mandar a Pedro, Rosaura y Roberto a Texas para que tengan un médico cuando lo necesiten. Cuando Tita oye esto sufre un shock. Así Mamá Elena arruina a Tita el bautizo, la primera fiesta de la que disfrutó en su vida.</p>
+<h5 align="center" style="cursor:pointer"><a name="Ambiente">Ambiente.</a></h5>
+<p class="indice2"><a href="#Indice">Índice.</a></p>
+<img class="barra3" src="Barra2.png"/>
+<img class="barra4" src="Barra2.png"/>
+<p class="ambiente"><b>La cocina</b>. En la cocina que es donde pasa Tita  mayor tiempo, se sabe que hay una mesa y que hay dos puertas, una de ellas lleva hacia el patio trasero donde se encuentra un huerto, y la otra que lleva hacia un pasillo. Esto lo podemos leer en los siguientes fragmentos de capítulos anteriores:<br><br><br><b>Capítulo I:</b><b><em class="cita2"> <q>Tita arribó a este mundo prematuramente, sobre la mesa de la cocina, entre los olores de una sopa de fideos que estaba cocinando, los del tomillo, el laurel, el cilantro, el de la leche hervida, el de los ajos y, por supuesto, el de la cebolla.</em></q></b><br><b>Capítulo I:</b><b><em class="cita2"><q> Ese gigantesco mundo que empezaba de la puerta de la cocina hacia el interior de la casa, porque el que colindaba con la puerta trasera de la cocina y que daba al patio, a la huerta, a la hortaliza, sí le pertenecía por completo, lo dominaba.</em></q></b><br><b>Capítulo II:</b><b><em class="cita2"><q>Y diciendo esto, Tita salió rápidamente de la cocina, por la otra puerta, hacia la sala, donde Chencha y Gertrudis bordaban la sábana nupcial.</q></em></b><br><br><b>Patio.</b> Donde se celebran las bodas y fiestas. En la parte trasera hay un hurto, y una especie de granja, con animales como gallinas. Es aquí donde se celebra el bautizo de su sobrino, Roberto.</br></p> 
+
+<video src="Video1.mp4" width="320px" height="200px" controls poster="Poster.jpg"></video><br><p class="descripcion2" align="center">Puedes ver un resumen general sobra la obra "Como Agua Para Chocolate" en el siguiente vídeo.</p>
+<!--<video src="Video2.mp4" width="320px" height="200px" controls poster="Poster2.jpg"></video>-->
+<!--<table class="enlace2">
+<tr>
+<td><img src="Imagen12.jpg" width="100px" height="200px"/><br><br><p class="descripcion" align="center">Para más información sobre la obra "Como Agua Para Chocolate" clic <a class="enlaza" href="https://deliciasprehispanicas.com/2019/06/15/pelicula-completa-como-agua-para-chocolate-video/">Aquí</a></p></td>
+</tr>
+</table>-->
+<img src="Imagen6.jpg"  class="Imagen6" width="320px" height="230px"/><br>
+<img src="Imagen7.jpg"  class="Imagen7" width="320px" height="230px"/>
+<p class="descripcion3" align="center">Imágenes de mole guajolote con almendra y ajonjolí.</p>
+<h6 align="center" style="cursor:pointer"><a name="Valor">Valor.</a></h6>
+<p class="indice3"><a href="#Indice">Índice.</a></p>
+<img class="barra5" src="Barra3.png"/>
+<img class="barra6" src="Barra3.png"/>
+<p class="valor"> <b>Amor.</b> Tita sentía mucho amor por su sobrino, Roberto. Siendo así que ella no soportaba ver que su sobrino aguantara hambre debido que su verdadera madre, Rosaura, no podía darle leche, y aunque consiguieron nodrizas, no funcionó, y Tita ante esta situación decidió darle su pecho a su sobrino aun sabiendo que ella estaba seca, pero sucedió un milagro: el niño logro sacarle leche a Tita salió, por lo que ella pudo alimentar a su sobrino. Lo podemos leer en los siguientes fragmentos del capítulo 4:<br><br><b><em class="cita3"><q>Buscaba su leche entre los senos de Tita. Si hay algo en la vida que Tita no resistía era que una persona hambrienta le pidiera comida y que ella no pudiera dársela. Le provocaba mucha angustia. Y sin poderse contener por más tiempo, Tita se abrió la blusa y le ofreció al niño su pecho.</q></em></b><br><br><b><em class="cita3"><q>Tita se abrió la blusa y le ofreció al niño su pecho. Sabía que estaba completamente seco, pero al menos le serviría de chupón y lo mantendría ocupado mientras ella decidía qué hacer para calmarle el hambre.</q></em></b><br><br><b><em class="cita3"><q>Cuando ella vio que el niño recuperaba poco a poco la tranquilidad en su rostro y lo escuchó deglutir sospechó que algo extraordinario estaba pasando. ¿Sería posible que el niño se estuviera alimentando de ella? Para comprobarlo, separó al niño de su pecho y vio cómo le brotaba un chisguete de leche. Tita no alcanzaba a comprender lo que sucedía. No era posible que una mujer soltera tuviera leche, se trataba de un hecho sobrenatural y sin explicación en esos tiempos.</q></em></b><br><br><br><table class="enlace2"><tr><td><img src="Imagen12.jpg" width="250px" height="300px"/><br><br><b><p class="descripcion4" align="center" >Si deseas ver la película de "Como Agua Para Chocolate" haz clic <a class="enlaza" href="https://deliciasprehispanicas.com/2019/06/15/pelicula-completa-como-agua-para-chocolate-video/">Aquí</a></p></b></td></tr></table><br>
+<p class= "descripcion5" align="center">Imagénes acerca el capítulo nº 4</p>
+<table class="Imagenes">
+<tr>
+<td><img class="Imagen8" src="Imagen8.jpg" width="400px" height="170px"/></td>
+<td><img class="Imagen9"src="Imagen9.jpg" width="400px" height="170px"/></td>
+</tr>
+<tr>
+<td><img class="Imagen10"src="Imagen10.jpg" width="400px" height="170px"/></td>
+<td><img class="Imagen11"src="Imagen11.jpg" width="400px" height="170px"/></td>
+</tr>
+</table>
+</p>
+<ul class="ingredientes" align="center">
+<li>1/4 de chile mulato</li>
+<li>3 chiles pasilla</li>
+<li>3 chiles anchos</li>
+<li>Un puño de almendras</li>
+<li>Un puño de ajonjolí</li>
+<li>Caldo de guajolote</li>
+<li>Un bizcocho</li>
+<li>1/3 de concha</li>
+<li>Cacahuates</li>
+<li>1/4 de cebolla</li>
+<li>Vino</li>
+<li>2 tablillas de chocolate</li>
+<li>Anís</li>
+<li>Manteca</li>
+<li>Clavo</li>
+<li>Canela</li>
+<li>Pimienta</li>
+<li>Azúcar</li>
+<li>Semillas de los chiles</li>
+<li>5 dientes de ajo</li>
+<br>
+<table>
+<tr>
+<td><img src="Chiles.png" width="100px" height="100px"><br><p align="center">Chile Mulato</p></td>
+<td><img src="Chiles2.png" width="100px" height="100px"><br><p align="center">Chile Pasilla</p></td>
+<td><img src="ChileAncho.png" width="100px" height="100px"><br><p align="center">Chile Ancho</p></td>
+</tr>
+<tr>
+<td><img src="Almendras.png" width="100px" height="100px"><br><p align="center">Almendras</p></td>
+<td><img src="Ajonjoli.png" width="100px" height="100px"><br><p align="center">Ajonjolí</p></td>
+<td><img src="Caldo.png" width="100px" height="100px"><br><p align="center">Caldo de Guajolote</p></td>
+</tr>
+<tr>
+<td><img src="Bizcochos.png" width="100px" height="100px"><br><p align="center">Bizcocho</p></td>
+<td><img src="Cacahuates.png" width="100px" height="100px"><br><p align="center">Cacahuates</p></td>
+<td><img src="Cebollas.png" width="100px" height="100px"><br><p align="center">Cebollas</p></td>
+</tr>
+<tr>
+<td><img src="Vino.png" width="100px" height="100px"><br><p align="center">Vino</p></td>
+<td><img src="Chocolate.png" width="100px" height="100px"><br><p align="center">Chocolate</p></td>
+<td><img src="Anis.png" width="100px" height="100px"><br><p align="center">Anís</p></td>
+</tr>
+<tr>
+<td><img src="Manteca.png" width="100px" height="100px"><br><p align="center">Manteca</p></td>
+<td><img src="Clavo.png" width="100px" height="100px"><br><p align="center">Clavo</p></td>
+<td><img src="Canela.png" width="100px" height="100px"><br><p align="center">Canela</p></td>
+</tr>
+<tr>
+<td><img src="Pimienta.png" width="100px" height="100px"><br><p align="center">Pimienta</p></td>
+<td><img src="Azucar.png" width="100px" height="100px"><br><p align="center">Azúcar</p></td>
+<td><img src="Semillas.png" width="100px" height="100px"><br><p align="center">Semillas de Chile</p></td>
+</tr>
+<tr>
+<td><img src="Ajos.png" width="100px" height="100px"><br><p align="center">Ajos</p></td>
+</tr>
+</ul></table>
+</body>
+</html>
+

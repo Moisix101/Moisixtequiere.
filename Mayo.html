@@ -1,0 +1,724 @@
+<html>
+<head>
+<title> Capitulo 5: Mayo </title>
+<link rel="Shortcut icon" type="Image/x-icon" href="Icono.png">
+<style>
+ body{
+ background-image:url("ChocolateCayendo.png");
+ background-repeat: repeat-x;
+ background-color: #719E9E;
+}
+*{
+  padding:0px;
+  margin:0px;
+}
+
+#indice{
+        margin:25px;
+		width= 2150px;
+		position: fixed;
+		left: -25px;
+		top:-30px;
+	    height:300px;
+		
+}
+
+ul{ 
+   list-style: none;
+   position: fixed;
+   }
+
+.menu li a{
+background-color:black;
+color:white;
+text-decoration:none;
+padding: 10px 15px;
+display:block;
+width:305px;
+font-family:Tempus Sans ITC, arial;
+font-size: 30px;
+}
+.menu a:link{
+    color:white;
+	height: 50px;
+	}
+a:active{
+    color:#7401DF;
+	}	
+
+.menu > li{
+float: left;
+}
+
+.menu li a:hover{
+background-color:gray;
+
+}
+
+.menu li ul{
+
+display:none;
+position: fixed;
+min-width: 10px;
+}
+
+.menu li:hover > ul{
+
+display:block;
+
+}
+ ol{
+ position: static;
+ top: 185px;
+ 
+ 
+ }
+
+ol li{
+border-radius:50px;
+background-color:#F6DC92;
+position: static;
+margin-top:5px;
+width:300px;
+font-size:40px;
+height: 75px;
+padding-left:20px;
+-webkit-transition:padding-left 0.6s;
+font-family:Yu Gothic, arial;
+}
+
+ol li:hover{
+padding-left:50px;
+background-color:#B2A302;
+}
+
+ol li a{ 
+text-decoration: none;
+}
+
+ol li a:link{ 
+color: #071418;
+}
+
+ol li a:hover{ 
+color:#F8E0E6;
+}
+
+ol li a:visited{ 
+color:#08088A;
+}
+
+h2{
+background:-webkit-linear-gradient(#E5D9BF,#7B580D);
+margin-top:-320px;
+width:300px;
+height:75px;
+font-family:Yu Gothic , arial;
+font-size: 50px;
+border: 5px inset #7D651E;
+animation-name: colorchange;
+animation-duration: 5s;
+animation-timing-fuction:ease;
+animation-delay:1s;
+animation-iteration-count:infinite;
+animation-direction:normal;
+-webkti-animation-name: colorchange;
+-webkit-animation-duration: 5s;
+-webkit-animation-timing-fuction:ease;
+-webkit-animation-delay:1s;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-direction:normal;
+clear: both;
+}
+ @keyframes colorchange{
+
+                      0%{background:-webkit-linear-gradient(#E5D9BF,#7B580D);}
+					  20%{background:-webkit-linear-gradient(#C5EDD3,#8FA3CA);}
+					  40%{background:-webkit-linear-gradient(#CBB3E1,#BB8E89);}
+					  60%{background:-webkit-linear-gradient(#F2BEF5,#659EA2);}
+					  80%{background:-webkit-linear-gradient(#F6DBE0,#D4D5B6);}
+					 100%{background:-webkit-linear-gradient(#F6DFD7, #F0B3C7);}
+	 }
+	
+	@-webkit-keyframes colorchange{
+	                   0%{background:-webkit-linear-gradient(#ECF8E0,#0489B1);}
+					  20%{background:-webkit-linear-gradient(#F8E0EC,#BF00FF);}
+					  40%{background:-webkit-linear-gradient(#F2F2F2,#DF3A01);}
+					  60%{background:-webkit-linear-gradient(#F7F8E0,#B40404);}
+					  80%{background:-webkit-linear-gradient(#E0F8F7,#B40431);}
+					 100%{background:-webkit-linear-gradient(#ECE0F8,#FF4000 );}
+                      
+	 }
+	
+h1{
+float:top;
+position:static;
+margin-top:300px;
+margin-left: 100px;
+left: 370px;
+font-family:courier;
+color:#310068;
+text-shadow: 5px 2px 4px #A8BDF9;
+} 
+
+
+.gif{
+position: static;
+margin-right:10px;
+height: 275px;
+margin-top: -359px;
+width: 300px;
+margin-left:1040px;
+}
+
+ .ingredientes{
+ position: static;
+ margin-top: -3145px;  
+ left: -1px;
+ overflow: scroll;
+ background:-webkit-linear-gradient(#F5D1AD,#F052B9);
+ width: 320px; 
+ height: 400px;
+ font-family: yu gothic;
+ font-size:18px;
+ }
+ 
+ h3{
+ position: static;
+ margin-top: 10px;
+ left: -1px;
+ border-radius: 50px;
+ border: 5px solid #EC0148;
+ background-color:#A44460;
+ width: 320px; 
+ height: 60px;
+ font-family: vladimir script;
+ font-size: 50px;
+ }
+ 
+ h4{
+ position: static;
+ margin-top: -20px;
+ margin-left:690px;
+ width: 300px;
+ height: 50px;
+ font-family: Tw Cen MT;
+ font-size: 50px;
+ background-image:url("Titulo.png");
+ border-radius: 50px;
+
+ }
+ 
+ h4:hover{
+ height: 75px;
+ 
+ }
+  
+  .barra{
+ position: static;
+ margin-top: -70px;
+ margin-left:450px;
+ width: 300px;
+ height: 200px;
+ 
+ }
+
+ .barra2{
+ position: static;
+ margin-top: -200px;
+ margin-left:970px;
+ width: 300px;
+ height: 200px;
+ 
+ }
+
+.resumen{
+position: static;
+ margin-top: -690px;
+ margin-left: 330px;
+ background-color:#BEC894;
+ width: 1000px; 
+ height: 1100px;
+ font-family: yu gothic;
+ font-size:16px;
+ text-align: justify;
+ padding-left: 10px;
+ }
+ 
+ .resumen:hover{
+ background-color:#E9BDB6;
+
+ }
+ 
+ 
+ .cita{
+ text-align: justify;
+ background: #F3CB91;
+}
+ 
+
+ .indice1{
+ position: static;
+ margin-top: 10px;
+ margin-left:690px;
+ width: 300px;
+ height: 50px;
+ font-family: Tw Cen MT;
+ font-size: 50px;
+ background:-webkit-linear-gradient(#F6CED8,#00BFFF);
+ border-radius: 50px;
+ text-align: center;
+}
+ 
+ .indice1 a{
+  color:#0B0005; 
+  }
+ 
+ .indice1 a:link{
+  text-decoration:none;
+}
+  
+  .indice1 a:hover{
+  color: #F6E8EB;
+}
+  
+ .indice1 a:visited{
+  color:#015DFB;
+} 
+  
+ .enlace{
+position: static;
+margin-top: 200px;
+ margin-left:-1px;
+ }  
+ 
+.descripcion{
+background-color:#F83E3A;
+border: 5px dashed #9C181A;
+width: 309px;
+height: 70px;
+font-family:Arial Narrow;
+text-align: justify;
+font-size: 21px;
+}
+
+ .enlaza{
+ color:black;
+ }
+  
+h5{
+position: static;
+margin-top: 30px;
+margin-left:600px;
+width: 300px;
+ height: 50px;
+ font-family: Tw Cen MT;
+ font-size: 50px;
+ background-image:url("Titulo.png");
+ border-radius: 50px;
+}
+ 
+h5:hover{
+ height: 75px;
+ 
+}
+
+.indice2{
+ position: static;
+ margin-top: 10px;
+ margin-left:600px;
+ width: 300px;
+ height: 50px;
+ font-family: Tw Cen MT;
+ font-size: 50px;
+ background:-webkit-linear-gradient(#E3CEF6,#F5A9A9);
+ border-radius: 50px;
+ text-align: center;
+}
+ 
+ .indice2 a{
+  color:#0B0005; 
+  }
+ 
+ .indice2 a:link{
+  text-decoration:none;
+}
+  
+  .indice2 a:hover{
+  color: #F6E8EB;
+}
+  
+ .indice2 a:visited{
+  color:#015DFB;
+} 
+
+.barra3{
+ position: static;
+ margin-top: -140px;
+ margin-left:300px;
+ width: 300px;
+ height: 200px;
+ 
+ }
+
+ .barra4{
+ position: static;
+ margin-top: -205px;
+ margin-left:900px;
+ width: 300px;
+ height: 200px;
+ 
+ }
+
+ .ambiente{
+ position: static;
+ margin-top: -10px;
+ margin-left: -1px;
+ background-color:#F78181;
+ width: 1000px; 
+ height: 500px;
+ font-family: yu gothic;
+ font-size:18px;
+ text-align: justify;
+ padding-left: 10px;
+ }
+ 
+ .ambiente:hover{
+ background-color:#BDBDBD;
+ }
+ 
+ .cita2{
+ text-align: justify;
+ background:#DF3A01;
+}
+
+ video{
+ position: static;
+ margin-top: -970px;
+ margin-left: -1px;
+ }
+ 
+ .descripcion2{
+ position: static;
+ margin-top: -1050px;
+ margin-left: -1px;
+ background-color:#F9D936;
+ width: 320px;
+ font-size:18px;
+ }
+
+ .gif2{
+ position: static;
+ margin-top: -130px;
+ margin-left: 100px;
+ }
+ 
+ .Imagen6{
+position: static;
+ margin-top: 600px;
+ margin-left: 1015px;
+ box-shadow: 5px 10px black;
+} 
+ 
+ .Imagen7{
+position: static;
+ margin-top: 10px;
+ margin-left: 1018px;
+ box-shadow: 5px 10px black;
+} 
+ 
+ .descripcion3{
+  position: static;
+ margin-top: -590px;
+ margin-left: 1015px;
+ box-shadow: 5px 10px black;
+ background:#F684FA;
+ width: 320px;
+ height: 100px;
+ font-size: 30px;
+ text-shadow: 5px 5px  10px #FB3E7F;
+} 
+
+  h6{
+   position: static;
+   margin-top: 420px;
+   margin-left: 400px;
+   width: 300px;
+   height: 50px;
+   font-family: Tw Cen MT;
+   font-size: 50px;
+   background-image:url("Titulo.png");
+   border-radius: 50px;
+}
+ 
+h6:hover{
+ height: 75px;
+ 
+}
+   
+  .indice3{
+ position: static;
+ margin-top: 10px;
+ margin-left: 400px;
+ width: 300px;
+ height: 50px;
+ font-family: Tw Cen MT;
+ font-size: 50px;
+ background:-webkit-linear-gradient(#E0F8F7,#8A084B);
+ border-radius: 50px;
+ text-align: center;
+}
+ 
+ .indice3 a{
+  color:#0B0005; 
+  }
+ 
+ .indice3 a:link{
+  text-decoration:none;
+}
+  
+  .indice3 a:hover{
+  color: #F6E8EB;
+}
+  
+ .indice3 a:visited{
+  color:#015DFB;
+}  
+ 
+  .barra5{
+ position: static;
+ margin-top: -130px;
+ margin-left: 100px;
+ width: 300px;
+ height: 200px;
+} 
+   
+ .barra6{
+ position: static;
+ margin-top: -130px;
+ margin-left: 300px;
+ width: 300px;
+ height: 200px;
+ }    
+   
+ .valor {
+ position: static;
+ margin-top: 10px;
+ margin-left: 1px;
+ background-color:#D89C7F;
+ width:1100px;
+ height: 430px;
+ font-family: yu gothic;
+ font-size:18px;
+ text-align: justify;
+ padding-left: 10px;
+ }
+ 
+ .valor:hover{
+ background-color:#9BB7D3;
+
+ }
+ 
+ .cita3{
+ text-align: justify;
+ background:#CB68FA;
+}
+ 
+ video{
+ position: static;
+ margin-top: -970px;
+ margin-left: -1px;
+ }
+ 
+ .enlace2{
+ position: static;
+ margin-top: -430px;
+ margin-left: 1100px;
+ 
+ }
+  
+  .descripcion4{
+ width: 250px;
+ height: 100px;
+ box-shadow: 5px 10px black;
+ background:#E2FBA1;
+ font-size: 20px;
+ text-shadow: 5px 5px  10px #79CDF7;
+ margin-top: -20px;
+ }
+ 
+ 
+ .Imagenes{
+ position: static;
+ margin-top: -7px;
+ margin-left: 400px;
+ 
+ }
+  
+  .descripcion5{
+  margin-left: 570px;
+  margin-top: 10px;
+  color: white;
+  width: 300px;
+  font-family:Times New Roman;
+  font-size:45px;
+  text-shadow: 5px 5px  10px #1FFB9F;
+  }
+  
+  .Imagen15{
+  border:5px solid #FD4101;
+  } 
+  
+
+ 
+</style>
+</head>
+<body>
+<div id="indice">
+<ul class="menu">
+<li align="center"><a href="Como Agua Para Chocolate.htm" target= "_black">Inicio</a></li>
+
+<li align="center"><a href="">Capítulos</a>
+<ul>
+<li align="center"><a href="Abril.html" target= "_black">Capítulo 4</a></li>
+<li align="center"><a href="Mayo.html" target= "_black">Capítulo 5</a></li>
+<li align="center"><a href="Junio.html" target= "_black">Capítulo 6</a></li>
+</ul>
+</li>
+<li align="Center"><a href="Personajes.html" target="_black">Personajes</a></li>
+<li align="center"><a href="Video.html" target= "_black">Vídeo</a></li>
+</ul>
+</div>
+<h1 align="center"><font face="Candle Mustard" size="11">Capitulo 5. Mayo:</a><br>Chorizo norteño. </font></h1> 
+<h2 align="center"><a name="Indice"> Índice:</a></h2>
+<ol>
+<li align="center"><a href="#Resumen"> Resumen </a></li> 
+<li align="center"><a href="#Ambiente"> Ambiente </a></li>
+<li align="center"><a href="#Valor"> Valor</a></li>
+</ol>
+<img class="gif" src="Imagen3.gif"></img>
+<h3 align="center">Ingredientes:</h3>
+<h4 align="center" style="cursor:pointer"><a name="Resumen"> Resumen. </a></h4>
+<p class="indice1"><a href="#Indice">Índice.</a></p>
+<img class="barra" src="Barra4.png"/>
+<img class="barra2" src="Barra4.png"/>
+<table class="enlace">
+<tr>
+<td><img src="Imagen5.jpg" width="320px" height="400px"/><br><br><p class="descripcion" align="center">Para más información sobre la obra "Como Agua Para Chocolate" clic <a class="enlaza" href="https://es.wikipedia.org/wiki/Como_agua_para_chocolate_(novela)">Aquí</a></p></td>
+</tr>
+</table>
+<p class="Resumen">En este capitulo, una pandilla dirigida por quien habia raptado a Gertudris trato de asaltar el Rancho de mamá Elena.
+ Al encontrarse sola, motivo a la mudanza de Rosaura y Pedro, mamá Elena esconde a Tita en un sotano con Chencha la sirvienta, y mamá Elena sale a 
+ encarar a los rebeldes, con sus empleados Rosalío y Guadalupe, y les dejo muy claro que se podia llevar todo lo que encontraran, menos lo que había
+ en la casa, les prohibio entrar a la casa a los rebeldes, para desconsuelo de Tita, quien en ese momento anhelaba que la hubiesen matado.
+Tita era la unica hija que podia ver a su madre desnuda, Tita la bañaba, le planchaba su ropa, la peinaba, ese dia había realizado sus tareas muy mal.Cuando 
+ya se sentia un poco mejor, Tita y su mami Elena estaban enrrollando los chorizos cuando Chencha llorando da la noticia del fallecimiento del hijo 
+de Rosaura y Pedro, hecho que desvasto a Tita. Su mamá le prohibe hablar y llorar y la manda a que continue enrrollando los chorizos, pero Tita se niega,
+ y la culpa por la muerte de Roberto su sobrino, lo que provocó que su madre le rompiese la nariz al golpearla con una cuchara de madera.
+Tita huyé hacia el palomar y su madre ordena retirar la escalara para que no pudiera bajar, a la mañana siguiente Chencha va a verla y a intentar bajarla pero Tita no le constesta ni le hace caso a lo que Chencha le decía, entonces esta le dice a mamá Elena que Tita esta loca, lo que provoca que mamá Elena mande a llamar al Doctor Brown, para que la materia en un manicomio,ya que mama Elena decía que en su casa no hay lugar para dementes. Antes de que se fueran, Chencha le pone la manta que Tita tejía, y Tita se aferra con mucha 
+fuerza a la manta y esta era tan larga que la arrastraba por todo el camino. <br><br><b>Problemáticas:<br><br><b>1. Rosaura, Pedro y el niño se van ya que Mamá Elena sospechaba que habia pasado algo entre Tita y Pedro el dia de canícula:</b><br><em class="cita"><q>
+Temerosa de que su madre sospechara algo, Tita regresó rápidamente y pasó una noche
+de tortura aguantando las ganas de orinar acompañada de otra sensación parecida. Pero de
+nada sirvió su sacrificio: al día siguiente Mamá Elena, que por un tiempo parecía haber
+cambiado de opinión en cuanto a que Pedro y Rosaura se fueran a vivir a San Antonio,
+Texas, aceleró la partida y en tres días más logró que se fueran del rancho.</q></em><br><br><b>2.Los reveldes llegan a saquear el Rancho de Mamá Elena, pero ella siempre firme no los deja entrar a la casa y el General de los rebeldes era quien se llevo a Gertudris y Mamá Elena nunca lo supo:</b><br><em class="cita"><q>-Nadie va a entrar a esta casa, vean qué más pueden encontrar aquí y vámonos.
+Lo que descubrieron fue el gran palomar que formaba todo el techo de dos aguas de la
+enorme casa. Para llegar a él se tenía que trepar una escalera de siete metros de altura.
+Subieron tres rebeldes y se quedaron pasmados un buen rato antes de poder moverse.
+Imponían el tamaño, la obscuridad y el canturreo de las palomas ahí reunidas que entraban
+y saltan por pequeñas ventanas laterales. Cerraron la puerta y las ventanas para que
+ninguna pudiera escapar y se dedicaron a atrapar pichones y palomas.
+Juntaron tal cantidad que pudieron alimentar a todo el batallón por una semana. Antes de
+retirarse, el capitán recorrió a caballo el patio trasero, inhaló profundamente el indeleble olor
+a rosas que aún permanecía en ese lugar. Cerró los ojos y así permaneció un buen rato</q></em><br><br><b>3.Tita por la partida de su sobrino y Pedro, se siente vacia y desconsertada y no realizaba correctamente sus deberes: </b> <br>
+<b><em class="cita"><q>En opinión de Mamá Elena, con el baño pasaba lo mismo que con la comida:por más que
+Tita se esforzaba, siempre cometía infinidad de errores. O la camisa tenía una arruguita o no
+estaba suficientemente caliente el agua o la raya de la trenza estaba chueca, en fin, parecía
+que la única virtud de Mamá Elena era la de encontrar defectos. Pero nunca encontró tantos
+como ese día. Y es que Tita verdaderamente había descuidado todos los detalles de la
+ceremonia. El agua estaba tan caliente que Mamá Elena se quemó los pies al entrar, había
+olvidado el shishi para el lavado del pelo, había quemado el fondo y la camiseta, había
+abierto la puerta demasiado, en fin, que ahora sí se había ganado a pulso el que Mamá Elena
+la reprendiera y la expulsara del cuarto de baño</q></em></b></p>
+<h5 align="center" style="cursor:pointer"><a name="Ambiente">Ambiente.</a></h5>
+<p class="indice2"><a href="#Indice">Índice.</a></p>
+<img class="barra3" src="Barra5.png"/>
+<img class="barra4" src="Barra5.png"/>
+<p class="ambiente"><b> El Rancho de Mamá Elena: </b><br><b>La cocina</b>. En la cocina que es donde pasa Tita  mayor tiempo, se sabe que hay una mesa y que hay dos puertas, una de ellas lleva hacia el patio trasero donde se encuentra un huerto, y la otra que lleva hacia un pasillo. Esto lo podemos leer en los siguientes fragmentos de capítulos anteriores:<br><br><br><b>Capítulo I:</b><b><em class="cita2"> <q>Tita arribó a este mundo prematuramente, sobre la mesa de la cocina, entre los olores de una sopa de fideos que estaba cocinando, los del tomillo, el laurel, el cilantro, el de la leche hervida, el de los ajos y, por supuesto, el de la cebolla.</em></q></b><br><b>Capítulo I:</b><b><em class="cita2"><q> Ese gigantesco mundo que empezaba de la puerta de la cocina hacia el interior de la casa, porque el que colindaba con la puerta trasera de la cocina y que daba al patio, a la huerta, a la hortaliza, sí le pertenecía por completo, lo dominaba.</em></q></b><br><b>Capítulo II:</b><b><em class="cita2"><q>Y diciendo esto, Tita salió rápidamente de la cocina, por la otra puerta, hacia la sala, donde Chencha y Gertrudis bordaban la sábana nupcial.</q></em></b><br><br><b>Patio.</b> Donde se celebran las bodas y fiestas. En la parte trasera hay un hurto, y una especie de granja, con animales como gallinas.</br></p> 
+
+<video src="Video1.mp4" width="320px" height="200px" controls poster="Poster.jpg"></video><br><p class="descripcion2" align="center">Puedes ver un resumen general sobra la obra "Como Agua Para Chocolate" en el siguiente vídeo.</p>
+<!--<video src="Video2.mp4" width="320px" height="200px" controls poster="Poster2.jpg"></video>-->
+<!--<table class="enlace2">
+<tr>
+<td><img src="Imagen12.jpg" width="100px" height="200px"/><br><br><p class="descripcion" align="center">Para más información sobre la obra "Como Agua Para Chocolate" clic <a class="enlaza" href="https://deliciasprehispanicas.com/2019/06/15/pelicula-completa-como-agua-para-chocolate-video/">Aquí</a></p></td>
+</tr>
+</table>-->
+<img src="Imagen13.jpg"  class="Imagen6" width="320px" height="230px"/><br>
+<img src="Imagen14.jpg"  class="Imagen7" width="320px" height="230px"/>
+<p class="descripcion3" align="center">Imágenes de chorizo norteño.</p>
+<h6 align="center" style="cursor:pointer"><a name="Valor">Valor.</a></h6>
+<p class="indice3"><a href="#Indice">Índice.</a></p>
+<img class="barra5" src="Barra6.png"/>
+<img class="barra6" src="Barra6.png"/>
+<p class="valor"><b>Valentía.</b> Podemos notar este valor cuando Tita se enfrenta a su madre y le dice que por culpa de ella su sobrino se muere.
+Vemos la valentia de Tita ya que nunca le habia levantado la voz ya que Mamá Elena era una persona de caracter muy fuerte 
+y por ese motivo le tenian un poco de miedo.<br><br><b>Bondad.</b> Podemos ver este valor cuando Tita salva al unico pajarito que queda vivo, lo cuida, le da de comer y lo mantiene a salvo unos dias, hasta que muere el pajarito.<br><br><b>Paciencia.</b> Podemos ver en el capitulo la gran paciencia que tiene Tita hacia su madre, por como Mamá Elena la trataba o como le decia las cosas de una manera muy dura que hacian que Tita se sintiera mal. Pero Tita no le falto nunca el respeto a su madre.<br><br><b>Amor.</b> El amor es uno de los valores que mas podemos ver en Tita, ya que ella le daba un gran amor a todos, 
+amo mucho a su sobrino aun siendo hijo del hombre que amaba y de su hermana.<br><br><br><table class="enlace2"><tr><td><img src="Imagen12.jpg" width="250px" height="300px"/><br><br><b><p class="descripcion4" align="center" >Si deseas ver la película de "Como Agua Para Chocolate" haz clic <a class="enlaza" href="https://deliciasprehispanicas.com/2019/06/15/pelicula-completa-como-agua-para-chocolate-video/">Aquí</a></p></b></td></tr></table><br>
+<p class= "descripcion5" align="center">Imagen acerca el capítulo nº 5</p>
+<table class="Imagenes">
+<tr>
+<td><img class="Imagen15" src="Imagen15.jpg" width="600px" height="370px"/></td>
+</table>
+</p>
+<ul class="ingredientes" align="center">
+<li>8 kilos de lomo de puerco</li>
+<li>2 kilos de retazo o cabeza de lomo</li>
+<li>1 kilo de chile ancho</li>
+<li>60g de cominos</li>
+<li>60g de orégano</li>
+<li>30g de pimienta</li>
+<li>5g de clavo</li>
+<li>2 taza de ajos</li>
+<li>2 litros de vinagre de manzana</li>
+<li>1/4 de kilo de sal</li>
+<br>
+<table>
+<tr>
+<td><img src="Lomo.png" width="100px" height="100px"><br><p align="center">Lomo De Puerco</p></td>
+<td><img src="Cabeza.png" width="100px" height="100px"><br><p align="center">Cabeza De Lomo</p></td>
+<td><img src="ChileAncho.png" width="100px" height="100px"><br><p align="center">Chile Ancho</p></td>
+</tr>
+<tr>
+<td><img src="Comino.png" width="100px" height="100px"><br><p align="center">Cominos</p></td>
+<td><img src="Oregano.png" width="100px" height="100px"><br><p align="center">Orégano</p></td>
+<td><img src="Pimienta.png" width="100px" height="100px"><br><p align="center">Pimienta</p></td>
+</tr>
+<tr>
+<td><img src="Clavo.png" width="100px" height="100px"><br><p align="center">Clavo</p></td>
+<td><img src="Ajos.png" width="100px" height="100px"><br><p align="center">Ajos</p></td>
+<td><img src="Vinagre.png" width="100px" height="100px"><br><p align="center">Vinagre de Manzana</p></td>
+</tr>
+<tr>
+<td><img src="Sal.png" width="100px" height="100px"><br><p align="center">Sal</p></td>
+</tr>
+</ul></table>
+</body>
+</html>
+ 
+
+
+
+
+
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+

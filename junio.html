@@ -1,0 +1,669 @@
+<html>
+<head>
+<title> Capitulo 6: Junio </title>
+<link rel="Shortcut icon" type="Image/x-icon" href="Icono.png">
+<style>
+ body{
+ background-image:url("ChocolateCayendo.png");
+ background-repeat: repeat-x;
+ background-color:#DE6251;
+}
+*{
+  padding:0px;
+  margin:0px;
+}
+
+#indice{
+        margin:25px;
+		width= 2150px;
+		position: fixed;
+		left: -25px;
+		top:-30px;
+	    height:300px;
+		
+}
+
+ul{ 
+   list-style: none;
+   position: fixed;
+   }
+
+.menu li a{
+background-color:black;
+color:white;
+text-decoration:none;
+padding: 10px 15px;
+display:block;
+width:305px;
+font-family:Tempus Sans ITC, arial;
+font-size: 30px;
+}
+.menu a:link{
+    color:white;
+	height: 50px;
+	}
+a:active{
+    color:#7401DF;
+	}	
+
+.menu > li{
+float: left;
+}
+
+.menu li a:hover{
+background-color:gray;
+
+}
+
+.menu li ul{
+
+display:none;
+position: fixed;
+min-width: 10px;
+}
+
+.menu li:hover > ul{
+
+display:block;
+
+}
+ ol{
+ position: static;
+ top: 185px;
+ 
+ 
+ }
+
+ol li{
+border-radius:50px;
+background-color:#84C7A0;
+position: static;
+margin-top:5px;
+width:300px;
+font-size:40px;
+height: 75px;
+padding-left:20px;
+-webkit-transition:padding-left 0.6s;
+font-family:Yu Gothic, arial;
+}
+
+ol li:hover{
+padding-left:50px;
+background-color:#647AAB;
+}
+
+ol li a{ 
+text-decoration: none;
+}
+
+ol li a:link{ 
+color: #071418;
+}
+
+ol li a:hover{ 
+color:#F8E0E6;
+}
+
+ol li a:visited{ 
+color:#08088A;
+}
+
+h2{
+background:-webkit-linear-gradient(#E99ADB,#4D9255);
+margin-top:-320px;
+width:300px;
+height:75px;
+font-family:Yu Gothic , arial;
+font-size: 50px;
+border: 5px inset #01D092;
+animation-name: colorchange;
+animation-duration: 5s;
+animation-timing-fuction:ease;
+animation-delay:1s;
+animation-iteration-count:infinite;
+animation-direction:normal;
+-webkti-animation-name: colorchange;
+-webkit-animation-duration: 5s;
+-webkit-animation-timing-fuction:ease;
+-webkit-animation-delay:1s;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-direction:normal;
+clear: both;
+}
+ @keyframes colorchange{
+
+                      0%{background:-webkit-linear-gradient(#E99ADB,#4D9255);}
+					  20%{background:-webkit-linear-gradient(#DCAEAA,#C0CE2C);}
+					  40%{background:-webkit-linear-gradient(#C8F76C,#D76D7F);}
+					  60%{background:-webkit-linear-gradient(#D299DF,#018698);}
+					  80%{background:-webkit-linear-gradient(#EFEF93,#2D946B);}
+					 100%{background:-webkit-linear-gradient(#F667E7,#7C4DA0);}
+	 }
+	
+	@-webkit-keyframes colorchange{
+	                   0%{background:-webkit-linear-gradient(#ECF8E0,#0489B1);}
+					  20%{background:-webkit-linear-gradient(#F8E0EC,#BF00FF);}
+					  40%{background:-webkit-linear-gradient(#F2F2F2,#DF3A01);}
+					  60%{background:-webkit-linear-gradient(#F7F8E0,#B40404);}
+					  80%{background:-webkit-linear-gradient(#E0F8F7,#B40431);}
+					 100%{background:-webkit-linear-gradient(#ECE0F8,#FF4000 );}
+                      
+	 }
+	
+h1{
+float:top;
+position:static;
+margin-top:300px;
+margin-left: 100px;
+left: 370px;
+font-family:courier;
+color:#0B614B;
+text-shadow: 5px 2px 4px #E0F8F7;
+} 
+
+
+.gif{
+position: static;
+margin-right:10px;
+height: 275px;
+margin-top: -359px;
+width: 300px;
+margin-left:1040px;
+}
+
+ .ingredientes{
+ position: static;
+ margin-top: -2960px;  
+ left: -1px;
+ overflow: scroll;
+ background:-webkit-linear-gradient(#ECCEF5,#D358F7);
+ width: 320px; 
+ height: 400px;
+ font-family: yu gothic;
+ font-size:18px;
+ }
+ 
+ h3{
+ position: static;
+ margin-top: 10px;
+ left: -1px;
+ border-radius: 50px;
+ border: 5px solid #DF0101 ;
+ background-color:#F78181;
+ width: 320px; 
+ height: 60px;
+ font-family: vladimir script;
+ font-size: 50px;
+ }
+ 
+ h4{
+ position: static;
+ margin-top: -20px;
+ margin-left:690px;
+ width: 300px;
+ height: 50px;
+ font-family: Tw Cen MT;
+ font-size: 50px;
+ background-image:url("Titulo4.jpg");
+ border-radius: 50px;
+
+ }
+ 
+ h4:hover{
+ height: 75px;
+ 
+ }
+  
+  .barra{
+ position: static;
+ margin-top: -70px;
+ margin-left:400px;
+ width: 300px;
+ height: 200px;
+ 
+ }
+
+ .barra2{
+ position: static;
+ margin-top: -200px;
+ margin-left:970px;
+ width: 300px;
+ height: 200px;
+ 
+ }
+
+.resumen{
+position: static;
+ margin-top: -690px;
+ margin-left: 330px;
+ background-color:#81BDCE;
+ width: 1000px; 
+ height: 1100px;
+ font-family: yu gothic;
+ font-size:17px;
+ text-align: justify;
+ padding-left: 10px;
+ }
+ 
+ .resumen:hover{
+ background-color:#CACDC7;
+
+ }
+ 
+ 
+ .cita{
+ text-align: justify;
+ background:#C3EF8C ;
+}
+ 
+
+ .indice1{
+ position: static;
+ margin-top: 10px;
+ margin-left:690px;
+ width: 300px;
+ height: 50px;
+ font-family: Tw Cen MT;
+ font-size: 50px;
+ background:-webkit-linear-gradient(#F7F8E0,#F7819F);
+ border-radius: 50px;
+ text-align: center;
+}
+ 
+ .indice1 a{
+  color:#0B0005; 
+  }
+ 
+ .indice1 a:link{
+  text-decoration:none;
+}
+  
+  .indice1 a:hover{
+  color: #F6E8EB;
+}
+  
+ .indice1 a:visited{
+  color:#015DFB;
+} 
+  
+ .enlace{
+position: static;
+margin-top: 200px;
+ margin-left:-1px;
+ }  
+ 
+.descripcion{
+background-color:#C8EAA8;
+border: 5px dashed #59862F;
+width: 309px;
+height: 70px;
+font-family:Arial Narrow;
+text-align: justify;
+font-size: 21px;
+}
+
+ .enlaza{
+ color:black;
+ }
+  
+h5{
+position: static;
+margin-top: 30px;
+margin-left:600px;
+width: 300px;
+ height: 50px;
+ font-family: Tw Cen MT;
+ font-size: 50px;
+ background-image:url("Titulo4.jpg");
+ border-radius: 50px;
+}
+ 
+h5:hover{
+ height: 75px;
+ 
+}
+
+.indice2{
+ position: static;
+ margin-top: 10px;
+ margin-left:600px;
+ width: 300px;
+ height: 50px;
+ font-family: Tw Cen MT;
+ font-size: 50px;
+ background:-webkit-linear-gradient(#E0F8F1,#DF0101);
+ border-radius: 50px;
+ text-align: center;
+}
+ 
+ .indice2 a{
+  color:#0B0005; 
+  }
+ 
+ .indice2 a:link{
+  text-decoration:none;
+}
+  
+  .indice2 a:hover{
+  color: #F6E8EB;
+}
+  
+ .indice2 a:visited{
+  color:#015DFB;
+} 
+
+.barra3{
+ position: static;
+ margin-top: -140px;
+ margin-left:300px;
+ width: 300px;
+ height: 200px;
+ 
+ }
+
+ .barra4{
+ position: static;
+ margin-top: -205px;
+ margin-left:900px;
+ width: 300px;
+ height: 200px;
+ 
+ }
+
+ .ambiente{
+ position: static;
+ margin-top: -10px;
+ margin-left: -1px;
+ background-color:#D4CB71;
+ width: 1000px; 
+ height: 500px;
+ font-family: yu gothic;
+ font-size:18px;
+ text-align: justify;
+ padding-left: 10px;
+ }
+ 
+ .ambiente:hover{
+ background-color:#BDBDBD;
+ }
+ 
+ .cita2{
+ text-align: justify;
+ background:#80CC88;
+}
+
+ video{
+ position: static;
+ margin-top: -970px;
+ margin-left: -1px;
+ }
+ 
+ .descripcion2{
+ position: static;
+ margin-top: -1050px;
+ margin-left: -1px;
+ background-color:#F8879E;
+ width: 320px;
+ font-size:18px;
+ }
+
+ 
+ .Imagen6{
+position: static;
+ margin-top: 600px;
+ margin-left: 1015px;
+ box-shadow: 5px 10px black;
+} 
+ 
+ .Imagen7{
+position: static;
+ margin-top: 10px;
+ margin-left: 1018px;
+ box-shadow: 5px 10px black;
+} 
+ 
+ .descripcion3{
+  position: static;
+ margin-top: -590px;
+ margin-left: 1015px;
+ box-shadow: 5px 10px black;
+ background:#E1CA93;
+ width: 320px;
+ height: 100px;
+ font-size: 30px;
+ text-shadow: 5px 5px  10px #FBB716;
+} 
+
+  h6{
+   position: static;
+   margin-top: 420px;
+   margin-left: 400px;
+   width: 300px;
+   height: 50px;
+   font-family: Tw Cen MT;
+   font-size: 50px;
+   background-image:url("Titulo4.jpg");
+   border-radius: 50px;
+}
+ 
+h6:hover{
+ height: 75px;
+ 
+}
+   
+  .indice3{
+ position: static;
+ margin-top: 10px;
+ margin-left: 400px;
+ width: 300px;
+ height: 50px;
+ font-family: Tw Cen MT;
+ font-size: 50px;
+ background:-webkit-linear-gradient(#F6CED8,#045FB4);
+ border-radius: 50px;
+ text-align: center;
+}
+ 
+ .indice3 a{
+  color:#0B0005; 
+  }
+ 
+ .indice3 a:link{
+  text-decoration:none;
+}
+  
+  .indice3 a:hover{
+  color: #F6E8EB;
+}
+  
+ .indice3 a:visited{
+  color:#015DFB;
+}  
+ 
+  .barra5{
+ position: static;
+ margin-top: -130px;
+ margin-left: 100px;
+ width: 300px;
+ height: 200px;
+} 
+   
+ .barra6{
+ position: static;
+ margin-top: -130px;
+ margin-left: 300px;
+ width: 300px;
+ height: 200px;
+ }    
+   
+ .valor {
+ position: static;
+ margin-top: 10px;
+ margin-left: 1px;
+ background-color:#CF89EB;
+ width:1100px;
+ height: 250px;
+ font-family: yu gothic;
+ font-size:18px;
+ text-align: justify;
+ padding-left: 10px;
+ }
+ 
+ .valor:hover{
+ background-color:#9BB7D3;
+
+ }
+ 
+ .cita3{
+ text-align: justify;
+ background:#CB68FA;
+}
+ 
+ video{
+ position: static;
+ margin-top: -970px;
+ margin-left: -1px;
+ }
+ 
+ .enlace2{
+ position: static;
+ margin-top: -300px;
+ margin-left: 1100px;
+ 
+ }
+  
+  .descripcion4{
+ width: 250px;
+ height: 100px;
+ box-shadow: 5px 10px black;
+ background:#D5EBFC;
+ font-size: 20px;
+ text-shadow: 5px 5px  10px #183A53;
+ margin-top: -20px;
+ }
+ 
+ 
+ .Imagenes{
+ position: static;
+ margin-top: -7px;
+ margin-left: 400px;
+ 
+ }
+  
+  .descripcion5{
+  margin-left: 570px;
+  margin-top: 10px;
+  color: white;
+  width: 300px;
+  font-family:Times New Roman;
+  font-size:45px;
+  text-shadow: 5px 5px  10px #F91D03;
+  }
+  
+  .Imagen15{
+  border:5px solid #E10105;
+  } 
+  
+
+ 
+</style>
+</head>
+<body>
+<div id="indice">
+<ul class="menu">
+<li align="center"><a href="Como Agua Para Chocolate.htm" target= "_black">Inicio</a></li>
+
+<li align="center"><a href="">Capítulos</a>
+<ul>
+<li align="center"><a href="Abril.html" target= "_black">Capítulo 4</a></li>
+<li align="center"><a href="Mayo.html" target= "_black">Capítulo 5</a></li>
+<li align="center"><a href="Junio.html" target= "_black">Capítulo 6</a></li>
+</ul>
+</li>
+<li align="Center"><a href="Personajes.html" target="_black">Personajes</a></li>
+<li align="center"><a href="Video.html" target= "_black">Vídeo</a></li>
+</ul>
+</div>
+<h1 align="center"><font face="Candle Mustard" size="11">Capitulo 6. Junio:</a><br>Masa para hacer fósforos. </font></h1> 
+<h2 align="center"><a name="Indice"> Índice:</a></h2>
+<ol>
+<li align="center"><a href="#Resumen"> Resumen </a></li> 
+<li align="center"><a href="#Ambiente"> Ambiente </a></li>
+<li align="center"><a href="#Valor"> Valor</a></li>
+</ol>
+<img class="gif" src="Imagen4.gif"></img>
+<h3 align="center">Ingredientes:</h3>
+<h4 align="center" style="cursor:pointer"><a name="Resumen"> Resumen. </a></h4>
+<p class="indice1"><a href="#Indice">Índice.</a></p>
+<img class="barra" src="Barra7.png"/>
+<img class="barra2" src="Barra7.png"/>
+<table class="enlace">
+<tr>
+<td><img src="Imagen5.jpg" width="320px" height="400px"/><br><br><p class="descripcion" align="center">Para más información sobre la obra "Como Agua Para Chocolate" clic<a class="enlaza" href="https://es.wikipedia.org/wiki/Como_agua_para_chocolate_(novela)">Aquí</a></p></td>
+</tr>
+</table>
+<p class="Resumen">Actualmente Tita vive en la casa de John, el laboratorio es el lugar preferido de ambos. Cuando John trabaja en el laboratorio a Tita le gusta mirarlo porque siempre aprende y descubre nuevas cosas. Como John la ha salvado de su madre que quería “depostitarla” en un manicomio Tita le está muy agradecida a John. John le ha trído a su casa, le ha compuesto su nariz y la ha limpiado de la suciedad de las palomas. 
+Cada día se siente mejor gracias a las palabras y la actitud comprensiva de John. Para Tita John es su libertador del horror. Pero no dice nada a John porque prefiere el silencio y no habla en general. Tiene que ordenar su mente. Entretanto Caty una señora norteamericana de 70 años la alimenta y también se ocupa de Alex, el pequeño hijo del doctor. La madre de esté se murió cuando el nació. Tita escucha a Alex y le observa pero no quiere conocerlo. 
+A veces Tita ni siquiera come, prefiere mirar sus manos y analizarlas. No sabe que hacer con su tiempo libre porque al lado de su madre tenía que llevar la casa y ocuparse de su madre. 
+Nunca decidía por sí misma. Le gusta estar lejo de todo eso, no pensar ni hablar. En estos días Tita encuentra a una mujer de 80 años que es muy parecida a Nacha. Su cara es la de una indígena.
+Sonríe amamblemente y la invita a sentarse junta a ella para beber el té que ha preparado. Entre las dos se desarolla más que una comunicación. Tita la visita diariamente. Es la abuela de John que es del tribu kikapú. 
+Su apodo es “luz del amanecer”. Un día John quiere mostrar a Tita la teoría de su abuela, es decir que hombres son parecidos a fósforos. Los fósforos tienen que ser alumbrados por algo para que quemen. Los hombres también necesitan una persona particular que alimenta su alma. Tita conoce a su alimento pero por desgracia no puede volver a encenderlo. En la noche siguiente Tita escribe en una pared por qué no habla. Cuando al día siguiente John entra al 
+laboratorio ve en la pared las letras escritas: Porque no quiero. Estas tres palabras de Tita son el primer paso hacia su liberación. Mientras tanto Tita piensa en las palabras de John y se pregunta si John logrará encender su alma de nuevo. 
+Pero no lo sabe, solo está convencida de que no quiere vivir cerca de Mamá Elena nunca más.<br><br><b>Problemáticas:</b><br><br><b>Tita queda traumada y el doctor Brown le ayuda:</b><b><em class="cita"><q>Tita lo había descubierto a la semana de haber llegado a la casa del doctor John Brown. 
+Pues John, en contra de lo que Mamá Elena le había pedido, en lugar de depositarla en un manicomio la llevó a vivir con él.</q></em></b><br><br><b>La familia del doctor Brown tiene diferencia con su abuela:</b><b><em class="cita"><q> el cuarto le servía de refugio en contra de las agresiones de su familia. 
+Una de las primeras que recibió fue que le pusieran el mote de "la kikapú", en lugar de llamarla por su verdadero nombre,  
+Éste era sólo un pequeño ejemplo de la gran diferencia de opiniones y conceptos que existían entre estos representantes de dos culturas tan diferentes, 
+y que hacía imposible que entre los Brown surgiera el deseo de un acercamiento a las costumbres y tradiciones de «Luz del amanecer». 
+Tuvieron que pasar años antes de que se adentrara un poco en la cultura de la kikapú</q></em></b><br><br><b>El doctor le muestra el experimento del fosforo a tita:</b><b><em class="cita"><q>Tita gozaba enormemente el verlo trabajar. Con él siempre había cosas que aprender y descubrir, como ahora, 
+que mientras preparaba los cerillos le estaba dando toda una cátedra sobre el fósforo y sus propiedades. El doctor le mostró un experimento a Tita. 
+Aunque el fósforo no hace combustión en el oxígeno a la temperatura ordinaria, es susceptible de arder con gran rapidez a una temperatura elevada, mire...
+Tita nunca dejaría de agradecérselo. Tal vez en un manicomio hubiera terminado realmente loca.</q></em></b></p>
+<h5 align="center" style="cursor:pointer"><a name="Ambiente">Ambiente.</a></h5>
+<p class="indice2"><a href="#Indice">Índice.</a></p>
+<img class="barra3" src="Barra9.png"/>
+<img class="barra4" src="Barra9.png"/>
+<p class="ambiente"><b> El Rancho de Mamá Elena: </b><br><b>La cocina</b>. En la cocina que es donde pasa Tita  mayor tiempo, se sabe que hay una mesa y que hay dos puertas, una de ellas lleva hacia el patio trasero donde se encuentra un huerto, y la otra que lleva hacia un pasillo. Esto lo podemos leer en los siguientes fragmentos de capítulos anteriores:<br><br><br><b>Capítulo I:</b><b><em class="cita2"> <q>Tita arribó a este mundo prematuramente, sobre la mesa de la cocina, entre los olores de una sopa de fideos que estaba cocinando, los del tomillo, el laurel, el cilantro, el de la leche hervida, el de los ajos y, por supuesto, el de la cebolla.</em></q></b><br><b>Capítulo I:</b><b><em class="cita2"><q> Ese gigantesco mundo que empezaba de la puerta de la cocina hacia el interior de la casa, porque el que colindaba con la puerta trasera de la cocina y que daba al patio, a la huerta, a la hortaliza, sí le pertenecía por completo, lo dominaba.</em></q></b><br><b>Capítulo II:</b><b><em class="cita2"><q>Y diciendo esto, Tita salió rápidamente de la cocina, por la otra puerta, hacia la sala, donde Chencha y Gertrudis bordaban la sábana nupcial.</q></em></b><br><br><b>Casa del doctor Brown.</b> El capítulo lleva un desarrollo  en casa del doctor Brown, en un pequeño laboratorio, la cocina y el cuarto donde se hospedaba Tita</br></p> 
+
+<video src="Video1.mp4" width="320px" height="200px" controls poster="Poster.jpg"></video><br><p class="descripcion2" align="center">Puedes ver un resumen general sobra la obra "Como Agua Para Chocolate" en el siguiente vídeo.</p>
+<!--<video src="Video2.mp4" width="320px" height="200px" controls poster="Poster2.jpg"></video>-->
+<!--<table class="enlace2">
+<tr>
+<td><img src="Imagen12.jpg" width="100px" height="200px"/><br><br><p class="descripcion" align="center">Para más información sobre la obra "Como Agua Para Chocolate" clic <a class="enlaza" href="https://deliciasprehispanicas.com/2019/06/15/pelicula-completa-como-agua-para-chocolate-video/">Aquí</a></p></td>
+</tr>
+</table>-->
+<img src="Imagen16.jpg"  class="Imagen6" width="320px" height="230px"/><br>
+<img src="Imagen17.jpg"  class="Imagen7" width="320px" height="230px"/>
+<p class="descripcion3" align="center">Imágenes de masa para hacer fósforos.</p>
+<h6 align="center" style="cursor:pointer"><a name="Valor">Valor.</a></h6>
+<p class="indice3"><a href="#Indice">Índice.</a></p>
+<img class="barra5" src="Barra8.png"/>
+<img class="barra6" src="Barra8.png"/>
+<p class="valor"><b>Caridad.</b>Las manos de John, graves y amorosas, quitándole la ropa y bañándola; luego con cuidado le había desprendido de todo el cuerpo la suciedad de las palomas, dejándola limpia y perfumada. 
+Por último, le había cepillado el cabello tiernamente y acostado en una cama con sábanas almidonadas. Esas manos la habían rescatado del horror y nunca lo olvidaría.<br><br><b>Independencia.</b> En la noche, cuando John Brown entró al laboratorio, sonrió complacido al ver escrito en la pared con letras firmes y fosforescentes."Porque no quiero". Tita con estas tres palabras había dado el primer paso hacia la libertad. <br><br><br><table class="enlace2"><tr><td><img src="Imagen12.jpg" width="250px" height="300px"/><br><br><b><p class="descripcion4" align="center" >Si deseas ver la película de "Como Agua Para Chocolate" haz clic <a class="enlaza" href="https://deliciasprehispanicas.com/2019/06/15/pelicula-completa-como-agua-para-chocolate-video/">Aquí</a></p></b></td></tr></table><br>
+<p class= "descripcion5" align="center">Imagen acerca el capítulo nº 6</p>
+<table class="Imagenes">
+<tr>
+<td><img class="Imagen15" src="Imagen6.gif" width="600px" height="370px"/></td>
+</table>
+</p>
+<ul class="ingredientes" align="center">
+<li>1 onza de nitro en polvo</li>
+<li>1/2 onza de minio</li>
+<li>1/2 onza de goma arábica en polvo</li>
+<li>1 dracma de fósforo</li>
+<li>Azafrán</li>
+<li>Cartón</li>
+<br>
+<table>
+<tr>
+<td><img src="Nitro.png" width="100px" height="100px"><br><p align="center">Lomo De Puerco</p></td><br>
+<td><img src="Goma.png" width="100px" height="100px"><br><p align="center">Cabeza De Lomo</p></td>
+</tr>
+<tr>
+<td><img src="Azafran.png" width="100px" height="100px"><br><p align="center">Cominos</p></td><br>
+<td><img src="Carton.png" width="100px" height="100px"><br><p align="center">Orégano</p></td>
+</tr>
+</ul></table>
+</body>
+</html>
+ 
